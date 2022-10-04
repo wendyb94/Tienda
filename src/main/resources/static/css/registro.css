@@ -5,12 +5,12 @@
 }
 
 body {
-  background: linear-gradient(110deg, #006b77 50%,#006b4b 50%);
+  background: linear-gradient(110deg, #006b4b 50%, #006b77 50%);
 }
 
 .form-register {
   width: 400px;
-  background: #000033;
+  background: #003333;
   padding: 30px;
   margin: auto;
   margin-top: 100px;
@@ -33,10 +33,19 @@ body {
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 16px;
-  border: 1px solid #1f53c5;
+  border: 1px solid #ffffff;
   font-family: 'calibri';
   font-size: 18px;
-  color: white;
+  
+  
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+  
 }
 
 .form-register a {
@@ -52,5 +61,4 @@ body {
   color: white;
   margin: 16px 0;
   font-size: 16px;
-  
 }
