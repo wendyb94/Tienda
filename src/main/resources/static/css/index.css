@@ -1,19 +1,19 @@
- /*
+/*
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
 */
 /* 
-    Created on : Sep 28, 2022, 6:04:56 PM
+    Created on : Oct 4, 2022, 3:51:30 PM
     Author     : webadill
 */
 
 .block{
-   /* background-color: purple; */
+    background-color: purple;
     width: 200px;
     height: 200px;
     padding: 20px;
-/*    border: 20px solid blue;*/
-   /* box-sizing: border-box; */
+    border: 20px solid blue;
+    box-sizing: border-box;
 }
 
 .static{
@@ -46,18 +46,4 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to ed
     border: 3px solid red;
     top:150px;
     left:100px;
-}
-body div h1 img{
-    margin-top: -20px;
-    margin-left: 10px;
-    max-height: 100px;
-    max-width: 100px;
-    
-}
-body div h2{
-    margin-top: -100px;
-    margin-left: 150px;
-    max-height: 100px;
-    max-width: 100px;
-    
 }

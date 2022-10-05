@@ -1,0 +1,44 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 4, 2022, 5:37:37 PM
+    Author     : webadill
+*/
+
+.Tere h1{
+    font-size: 60px;
+    font-weight: 200;
+    color:black;
+}
+
+.Tere p{
+    font-size: 20px;
+    font-weight: 100;
+    color: black;
+}
+
+.Tere img{
+    width:300px;
+    max-height: 300px;
+    max-width: 300px;
+}
+
+.local{
+    box-sizing:content-box;
+    width: 40%;
+    border: solid black 10px;
+    padding: 5px;
+}
+
+.local h1{
+    font-size: 60px;
+    font-weight: 200;
+    color:black;
+}
+.local img{
+    width:300px;
+    max-height: 300px;
+    max-width: 300px; 
+}

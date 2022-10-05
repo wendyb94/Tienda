@@ -1,0 +1,118 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 4, 2022, 4:09:44 PM
+    Author     : webadill
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Roboto', monospace;
+    background-image:url(../images/backg.jpg);
+    background-position: center;
+}
+
+
+header{
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:0px 20px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.logo{
+    width:160px;
+    max-height: 140px;
+    max-width: 140px;
+    top: 10px;
+    right: 50px;
+}
+
+.eventos{
+    box-sizing:content-box;
+    width: 99%;
+    border: solid background 10px;
+    padding: 5px;
+}
+.eventos h1{
+    font-size: 60px;
+    font-weight: 200;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color:#232d60;
+}
+
+.eventos h2{
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color:#232d60;
+}
+
+.eventos p{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color:#232d60;
+}
+
+.eventos img{
+    width:160px;
+    max-height: 110px;
+    max-width: 110px;
+    top: 40px;
+    bottom: 15px;
+}
+
+.ServicioC h1{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color:#232d60;
+}
+
+.redes h1{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right:100px;
+    color:#232d60;
+}
+
+.redes ul li{
+    display:inline-block;
+    list-style: none;
+    margin:0px 20px;
+}
+
+.redes ul li img{
+    width:100px;
+    max-height: 140px;
+    max-width: 140px;
+}
